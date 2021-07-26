@@ -1,24 +1,30 @@
-import React from 'react';
-import coverImage from // Enter Image //
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
-function About() {
+const AboutMe = () => {
   return (
-    <section className="my-5">
-      <h1 id="about">Who am I?</h1>
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
-      <div className="my-2">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-        </p>
-      </div>
-    </section>
+    <MDBContainer className="mt-5">
+      <MDBRow>
+        <MDBCol md="12">
+          <h2>About Me</h2>
+          <hr class="solid bg-dark" />
+          <img
+            style={{ height: "285px" }}
+            src=""
+            class="float-left pr-4 pb-3 img-fluid"
+            alt="Candice Whiskey"
+          />
+          <p style={{ fontSize: "26px" }}>
+            Hi There, My name is Candice and I recently completed a Full Stack Engineer bootcamp at the University of Central Florida.  I am hoping to further my career by the new skills I have acquired.  I look forward to working amongst the developer community and a life long career or always learning the ever evolving technologies.  In my spare time, I do enjoy speding time with my family and traveling.`
+           
+          </p>
+          <p style={{ fontSize: "26px" }}>
+            I am familiar with the HTML,CSS, Javascript, SQL, NoSQL, Express, Node.js and React.  I am detail focused and an ambitious problem solver with
+            a passion for learning new skills.
+          </p>
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
   );
-}
+};
 
-export default About;
+export default AboutMe;
