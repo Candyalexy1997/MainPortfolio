@@ -9,7 +9,7 @@ const AboutMe = () => {
           <hr class="solid bg-dark" />
           <img
             style={{ height: "285px" }}
-            src="ttps://gentle-lowlands-00665.herokuapp.com/"
+            src="https://gentle-lowlands-00665.herokuapp.com/"
             class="float-left pr-4 pb-3 img-fluid"
             alt="Candice Whiskey"
           />
