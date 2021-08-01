@@ -9,7 +9,7 @@ const AboutMe = () => {
           <hr class="solid bg-dark" />
           <img
             style={{ height: "285px" }}
-            src=""
+            src="ttps://gentle-lowlands-00665.herokuapp.com/"
             class="float-left pr-4 pb-3 img-fluid"
             alt="Candice Whiskey"
           />
@@ -21,10 +21,11 @@ const AboutMe = () => {
             I am familiar with the HTML,CSS, Javascript, SQL, NoSQL, Express, Node.js and React.  I am detail focused and an ambitious problem solver with
             a passion for learning new skills.
           </p>
+
         </MDBCol>
       </MDBRow>
     </MDBContainer>
   );
 };
 
-export default AboutMe;
+export default AboutMe
